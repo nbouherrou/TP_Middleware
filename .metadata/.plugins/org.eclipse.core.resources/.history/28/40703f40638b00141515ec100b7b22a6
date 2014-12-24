@@ -17,7 +17,7 @@ public class Client {
 			
 			System.out.println(bean.hello());
 			
-			bean.login("Zizou");
+			bean.login("Abdelkrim");
 			
 			System.out.println(bean.hello());
 			
