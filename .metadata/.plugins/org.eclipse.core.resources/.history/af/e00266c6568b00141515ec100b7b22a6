@@ -1,0 +1,5 @@
+package org.middleware.tp1_ejb.ejbs;
+
+public interface SimpleRemote {
+
+}

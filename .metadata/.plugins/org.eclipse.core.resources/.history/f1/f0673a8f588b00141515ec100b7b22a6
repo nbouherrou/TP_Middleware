@@ -1,0 +1,5 @@
+package org.middleware.tp1_ejb.client;
+
+public class Client {
+
+}

@@ -1,0 +1,29 @@
+package org.middleware.tp1_ejb.ejbs;
+
+import javax.ejb.Stateless;
+
+
+@Stateless(name="SimpleEJB", mappedName="SimpleBean")
+public class SimpleBean implements SimpleRemote{
+
+	String login = null;
+	
+	@Override
+	public String hello() {
+
+		return "Bonjour !!!";
+	}
+
+	@Override
+	public String echo(String s) {
+
+		return "Le message est : " + s;
+	}
+
+	@Override
+	public void login(String name) {
+
+		this.login = name;
+	}
+
+}

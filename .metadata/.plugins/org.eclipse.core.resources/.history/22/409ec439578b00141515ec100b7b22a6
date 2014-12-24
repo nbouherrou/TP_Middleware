@@ -1,0 +1,17 @@
+package org.middleware.tp1_ejb.ejbs;
+
+public class SimpleBean implements SimpleRemote{
+
+	@Override
+	public String hello() {
+
+		return "Bonjour !!!";
+	}
+
+	@Override
+	public String echo(String s) {
+
+		return "Le message est : " + s;
+	}
+
+}

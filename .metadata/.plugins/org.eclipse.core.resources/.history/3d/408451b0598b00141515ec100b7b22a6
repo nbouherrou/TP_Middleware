@@ -1,0 +1,20 @@
+package org.middleware.tp1_ejb.client;
+
+import javax.naming.InitialContext;
+
+import org.middleware.tp1_ejb.ejbs.SimpleRemote;
+
+public class Client {
+
+	public static void main(String[] args) {
+		try {
+			InitialContext ctx = new InitialContext();
+			SimpleRemote bean = (SimpleRemote) ctx.lookup("SimpleBean");
+			System.out.println(bean.hello());
+			System.out.println(bean.echo("Billy Bob"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}
