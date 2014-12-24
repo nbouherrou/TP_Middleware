@@ -2,13 +2,10 @@ package org.middleware.tp2_rmi;
 
 import java.rmi.RemoteException;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class PhoneDirectoryImpl implements PhoneDirectory{
 	
 	private Collection<Person> personList;
-	
-	
 	
 
 	public void addPerson(Person person) throws RemoteException {

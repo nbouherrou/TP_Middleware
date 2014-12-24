@@ -13,7 +13,7 @@ public class Client {
 		String serverAdress = "localhost";
 
 		try {
-			Registry registry = LocateRegistry.getRegistry(serverAdress, 19000);
+			Registry registry = LocateRegistry.getRegistry(serverAdress, 18500);
 			
 			Person person = (Person) registry.lookup("person");
 			//Person person2 = (Person) registry.lookup("person");

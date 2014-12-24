@@ -9,7 +9,7 @@ public class Server {
 	
 	public static void main(String[] args) throws RemoteException {
 
-		Registry registry = LocateRegistry.createRegistry(19000);
+		Registry registry = LocateRegistry.createRegistry(18500);
 		
 		PersonImpl person = new PersonImpl();
 		PhoneDirectoryImpl phoneDirectory = new PhoneDirectoryImpl();
