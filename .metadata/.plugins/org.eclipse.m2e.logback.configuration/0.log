@@ -51,3 +51,15 @@
 2014-12-24 10:53:21,085 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp2_rmi/src/main/resources
 2014-12-24 10:53:21,086 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-12-24 10:53:21,087 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp2_rmi/src/test/resources
+2014-12-24 17:37:21,014 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:37:21,014 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/main/resources
+2014-12-24 17:37:21,016 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:37:21,016 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/test/resources
+2014-12-24 17:45:33,664 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:45:33,665 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/main/resources
+2014-12-24 17:45:33,666 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:45:33,667 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/test/resources
+2014-12-24 17:45:42,822 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:45:42,823 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/main/resources
+2014-12-24 17:45:42,825 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-12-24 17:45:42,825 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rbo/TP_Middleware/tp1_rmi/src/test/resources

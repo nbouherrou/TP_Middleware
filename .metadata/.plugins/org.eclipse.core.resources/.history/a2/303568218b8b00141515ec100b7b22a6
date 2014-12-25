@@ -5,13 +5,9 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class RemoteEchoImpl extends UnicastRemoteObject implements RemoteEcho {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
 	protected RemoteEchoImpl() throws RemoteException {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 
 	public String hello() throws RemoteException {
@@ -19,6 +15,7 @@ public class RemoteEchoImpl extends UnicastRemoteObject implements RemoteEcho {
 	}
 
 	public String echo(String s) throws RemoteException {
+		// TODO Auto-generated method stub
 		return "Le message est : " + s;
 	}
 
